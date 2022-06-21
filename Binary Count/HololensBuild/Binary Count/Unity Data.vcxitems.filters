@@ -2,52 +2,52 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{edb65532-b7f7-4250-bf31-c128cc4bede0}</UniqueIdentifier>
+      <UniqueIdentifier>{8d6ec82f-99c8-4a8f-bcef-ab0eeb4a678c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{b2a59b7f-0415-4706-b565-45646f1046d1}</UniqueIdentifier>
+      <UniqueIdentifier>{792b8683-a15b-4dee-96e8-90940654f1a2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{13e1bd6b-6ac4-408c-b0b8-46bfba4acb50}</UniqueIdentifier>
+      <UniqueIdentifier>{02f8d7ee-5c61-4a4c-864c-a05cf8685be8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{7cd42bb8-6877-4837-a28d-c03131a1fdc9}</UniqueIdentifier>
+      <UniqueIdentifier>{aee6693b-5da9-433e-a563-1a8887d2ba85}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{4f649665-b836-4ecb-9ef2-aaaedff88fad}</UniqueIdentifier>
+      <UniqueIdentifier>{3410e054-9f4d-46db-8b74-d6c691d9ec14}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{a247702d-2ef7-4d33-8868-eeba9a542d63}</UniqueIdentifier>
+      <UniqueIdentifier>{6a2f6d93-3f28-4a39-b494-f7e2515ad10b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{7cfef626-6caa-4826-b1a7-30b0e2a9dd85}</UniqueIdentifier>
+      <UniqueIdentifier>{f6eeb3ea-4843-4a76-b102-fae61c5e7b1a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{dd519663-1a2d-48aa-bbc1-7b67a9653716}</UniqueIdentifier>
+      <UniqueIdentifier>{14ba234e-6494-4f8d-b8cc-f6c51b8d4148}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{7d6dc480-09b7-40d2-85a9-c73e6e929511}</UniqueIdentifier>
+      <UniqueIdentifier>{182eb01e-f271-4d4d-92cb-78623a68091d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{dbfa18b5-9f5f-4fc3-b6ab-56050eb676e3}</UniqueIdentifier>
+      <UniqueIdentifier>{c21647b7-c951-4c5d-a8a8-b7ce42e6f728}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{5b077fc0-c1ef-493f-9616-925db063e2d6}</UniqueIdentifier>
+      <UniqueIdentifier>{1ddfc712-1e8f-419a-be87-0e8a73e27c22}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{219c9564-e156-42e8-ae56-316614df4cf0}</UniqueIdentifier>
+      <UniqueIdentifier>{11c66ff9-0c3d-4a4c-a9a8-25c2c5fd0527}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\WindowsMRXRSDK">
-      <UniqueIdentifier>{ef7c7569-e376-48f9-aa04-e4ddd22fd22a}</UniqueIdentifier>
+      <UniqueIdentifier>{3ce39e69-bc29-4aad-a6aa-cb0e063bc330}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{ca908f8f-668d-4582-aa12-42de0146b736}</UniqueIdentifier>
+      <UniqueIdentifier>{199d11c9-ec4d-4296-8629-f2a5ec3005c2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{ff4e3365-dd0d-4f37-a654-a1f43327a175}</UniqueIdentifier>
+      <UniqueIdentifier>{31e6d125-aa8e-44e8-a9c6-ecad22ce604c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{2047f4b1-1fb1-4155-ba2b-a2013968b6f7}</UniqueIdentifier>
+      <UniqueIdentifier>{49b65eb1-0fb9-4505-ab0d-8580623266a9}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />

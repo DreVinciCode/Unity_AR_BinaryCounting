@@ -508,6 +508,8 @@ struct String_t;
 struct StringBuilder_t;
 // System.Threading.SynchronizationContext
 struct SynchronizationContext_t17D9365B5E0D30A0910A16FA4351C525232EF069;
+// TMPro.TMP_Text
+struct TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262;
 // Microsoft.MixedReality.Toolkit.Utilities.Solvers.TapToPlace
 struct TapToPlace_tE8F62FD086213258FD9969BA2CC70BA0DBF7BBC9;
 // Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.TargetGroupIterator
@@ -621,6 +623,15 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+
+// <Module>
+struct U3CModuleU3E_tFDCAFCBB4B3431CFF2DC4D3E03FBFDF54EFF7E9A 
+{
+public:
+
+public:
+};
+
 
 // <Module>
 struct U3CModuleU3E_t06C7160B255BDAA2B93C8E37BC433053E3135C51 
@@ -23437,6 +23448,182 @@ public:
 };
 
 
+// FingerIndexCurlDetection
+struct FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.GameObject FingerIndexCurlDetection::visualMarker
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___visualMarker_4;
+	// TMPro.TMP_Text FingerIndexCurlDetection::Value_text
+	TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * ___Value_text_5;
+	// System.Single FingerIndexCurlDetection::threshold
+	float ___threshold_6;
+	// System.Int32 FingerIndexCurlDetection::_totalCount
+	int32_t ____totalCount_7;
+	// System.Int32 FingerIndexCurlDetection::_thumbValue
+	int32_t ____thumbValue_8;
+	// System.Int32 FingerIndexCurlDetection::_indexValue
+	int32_t ____indexValue_9;
+	// System.Int32 FingerIndexCurlDetection::_middlebValue
+	int32_t ____middlebValue_10;
+	// System.Int32 FingerIndexCurlDetection::_ringValue
+	int32_t ____ringValue_11;
+	// System.Int32 FingerIndexCurlDetection::_pinkyValue
+	int32_t ____pinkyValue_12;
+	// UnityEngine.GameObject FingerIndexCurlDetection::thumbObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___thumbObject_13;
+	// UnityEngine.GameObject FingerIndexCurlDetection::indexObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___indexObject_14;
+	// UnityEngine.GameObject FingerIndexCurlDetection::middleObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___middleObject_15;
+	// UnityEngine.GameObject FingerIndexCurlDetection::ringObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___ringObject_16;
+	// UnityEngine.GameObject FingerIndexCurlDetection::pinkyObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___pinkyObject_17;
+	// UnityEngine.GameObject FingerIndexCurlDetection::wristObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___wristObject_18;
+	// Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose FingerIndexCurlDetection::pose
+	MixedRealityPose_t9A27AAE05672995793F76985CE167AA85B8DF5AF  ___pose_19;
+
+public:
+	inline static int32_t get_offset_of_visualMarker_4() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___visualMarker_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_visualMarker_4() const { return ___visualMarker_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_visualMarker_4() { return &___visualMarker_4; }
+	inline void set_visualMarker_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___visualMarker_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___visualMarker_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Value_text_5() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___Value_text_5)); }
+	inline TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * get_Value_text_5() const { return ___Value_text_5; }
+	inline TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 ** get_address_of_Value_text_5() { return &___Value_text_5; }
+	inline void set_Value_text_5(TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * value)
+	{
+		___Value_text_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Value_text_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_threshold_6() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___threshold_6)); }
+	inline float get_threshold_6() const { return ___threshold_6; }
+	inline float* get_address_of_threshold_6() { return &___threshold_6; }
+	inline void set_threshold_6(float value)
+	{
+		___threshold_6 = value;
+	}
+
+	inline static int32_t get_offset_of__totalCount_7() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____totalCount_7)); }
+	inline int32_t get__totalCount_7() const { return ____totalCount_7; }
+	inline int32_t* get_address_of__totalCount_7() { return &____totalCount_7; }
+	inline void set__totalCount_7(int32_t value)
+	{
+		____totalCount_7 = value;
+	}
+
+	inline static int32_t get_offset_of__thumbValue_8() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____thumbValue_8)); }
+	inline int32_t get__thumbValue_8() const { return ____thumbValue_8; }
+	inline int32_t* get_address_of__thumbValue_8() { return &____thumbValue_8; }
+	inline void set__thumbValue_8(int32_t value)
+	{
+		____thumbValue_8 = value;
+	}
+
+	inline static int32_t get_offset_of__indexValue_9() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____indexValue_9)); }
+	inline int32_t get__indexValue_9() const { return ____indexValue_9; }
+	inline int32_t* get_address_of__indexValue_9() { return &____indexValue_9; }
+	inline void set__indexValue_9(int32_t value)
+	{
+		____indexValue_9 = value;
+	}
+
+	inline static int32_t get_offset_of__middlebValue_10() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____middlebValue_10)); }
+	inline int32_t get__middlebValue_10() const { return ____middlebValue_10; }
+	inline int32_t* get_address_of__middlebValue_10() { return &____middlebValue_10; }
+	inline void set__middlebValue_10(int32_t value)
+	{
+		____middlebValue_10 = value;
+	}
+
+	inline static int32_t get_offset_of__ringValue_11() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____ringValue_11)); }
+	inline int32_t get__ringValue_11() const { return ____ringValue_11; }
+	inline int32_t* get_address_of__ringValue_11() { return &____ringValue_11; }
+	inline void set__ringValue_11(int32_t value)
+	{
+		____ringValue_11 = value;
+	}
+
+	inline static int32_t get_offset_of__pinkyValue_12() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ____pinkyValue_12)); }
+	inline int32_t get__pinkyValue_12() const { return ____pinkyValue_12; }
+	inline int32_t* get_address_of__pinkyValue_12() { return &____pinkyValue_12; }
+	inline void set__pinkyValue_12(int32_t value)
+	{
+		____pinkyValue_12 = value;
+	}
+
+	inline static int32_t get_offset_of_thumbObject_13() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___thumbObject_13)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_thumbObject_13() const { return ___thumbObject_13; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_thumbObject_13() { return &___thumbObject_13; }
+	inline void set_thumbObject_13(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___thumbObject_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___thumbObject_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_indexObject_14() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___indexObject_14)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_indexObject_14() const { return ___indexObject_14; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_indexObject_14() { return &___indexObject_14; }
+	inline void set_indexObject_14(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___indexObject_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___indexObject_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_middleObject_15() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___middleObject_15)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_middleObject_15() const { return ___middleObject_15; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_middleObject_15() { return &___middleObject_15; }
+	inline void set_middleObject_15(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___middleObject_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___middleObject_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ringObject_16() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___ringObject_16)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_ringObject_16() const { return ___ringObject_16; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_ringObject_16() { return &___ringObject_16; }
+	inline void set_ringObject_16(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___ringObject_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ringObject_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_pinkyObject_17() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___pinkyObject_17)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_pinkyObject_17() const { return ___pinkyObject_17; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_pinkyObject_17() { return &___pinkyObject_17; }
+	inline void set_pinkyObject_17(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___pinkyObject_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___pinkyObject_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_wristObject_18() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___wristObject_18)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_wristObject_18() const { return ___wristObject_18; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_wristObject_18() { return &___wristObject_18; }
+	inline void set_wristObject_18(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___wristObject_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___wristObject_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_pose_19() { return static_cast<int32_t>(offsetof(FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56, ___pose_19)); }
+	inline MixedRealityPose_t9A27AAE05672995793F76985CE167AA85B8DF5AF  get_pose_19() const { return ___pose_19; }
+	inline MixedRealityPose_t9A27AAE05672995793F76985CE167AA85B8DF5AF * get_address_of_pose_19() { return &___pose_19; }
+	inline void set_pose_19(MixedRealityPose_t9A27AAE05672995793F76985CE167AA85B8DF5AF  value)
+	{
+		___pose_19 = value;
+	}
+};
+
+
 // Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.FollowEyeGaze
 struct FollowEyeGaze_t4BFC77B6EFA6C76CBC4453970F2E3995382A9B02  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -34261,6 +34448,10 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5212;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5212 = { sizeof (MixedRealityTeleportSystem_t9767D267275F6ED0ACA8118EC2483066FA2A9F1A), -1, sizeof(MixedRealityTeleportSystem_t9767D267275F6ED0ACA8118EC2483066FA2A9F1A_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5213;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5213 = { sizeof (U3CModuleU3E_tE7281C0E269ACF224AB82F00FE8D46ED8C621032), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5214;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5214 = { sizeof (U3CModuleU3E_tFDCAFCBB4B3431CFF2DC4D3E03FBFDF54EFF7E9A), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5215;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5215 = { sizeof (FingerIndexCurlDetection_t6B2A97C4BA6E9D75BB066AF5DD89F677744CDC56), -1, 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
